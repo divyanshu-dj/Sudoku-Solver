@@ -1,0 +1,42 @@
+# === Python (backend + algo) ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+backend/venv/
+venv/
+.venv/
+
+backend/model/
+
+instance/
+*.log
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/bun.lockb
+
+# === Common ===
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Test, coverage, cache
+.pytest_cache/
+coverage/
+htmlcov/
+.tox/
+
+
