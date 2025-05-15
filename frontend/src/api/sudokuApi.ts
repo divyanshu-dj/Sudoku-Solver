@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const client = 'http://localhost:5000'
+const client = 'http://127.0.0.1:8000'
 
 export const usePredict = async (file: File) => {
   try {
