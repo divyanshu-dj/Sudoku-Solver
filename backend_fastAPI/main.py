@@ -13,9 +13,14 @@ app = FastAPI()
 class SudokuGrid(BaseModel):
     grid: List[List[int]]
 
+origins = [
+    "https://sudoku-solver-beta-navy.vercel.app",
+    "http://localhost:8080",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

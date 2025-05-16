@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const client = 'http://127.0.0.1:8000'
+// const client = 'http://127.0.0.1:8000'
+const client = 'https://sudoku-solver-egtr.onrender.com'
 
 export const usePredict = async (file: File) => {
   try {
