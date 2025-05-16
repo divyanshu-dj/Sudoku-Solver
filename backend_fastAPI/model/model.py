@@ -3,7 +3,6 @@ from pathlib import Path
 import cv2
 import numpy as np
 import tensorflow as tf
-import matplotlib.pyplot as plt
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent
 
